@@ -1,1 +1,1 @@
-# array-dedup
+# code-kata-for-java-engineers
