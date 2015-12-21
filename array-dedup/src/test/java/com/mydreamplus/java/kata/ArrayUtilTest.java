@@ -12,8 +12,8 @@ public class ArrayUtilTest {
 
         String[] result = ArrayUtil.dedup(source);
 
-        Assert.assertNotNull(result);
-        Assert.assertTrue(result.length == 6);
+        Assert.assertNotNull("Result should not be null", result);
+        Assert.assertTrue("The length of result should be 6", result.length == 7);
     }
 
     @Test
@@ -22,7 +22,7 @@ public class ArrayUtilTest {
 
         Integer[] result = ArrayUtil.dedup(source);
 
-        Assert.assertNotNull(result);
-        Assert.assertTrue(result.length == 7);
+        Assert.assertNotNull("Result should not be null", result);
+        Assert.assertTrue("The length of result should be 7", result.length == 7);
     }
 }
